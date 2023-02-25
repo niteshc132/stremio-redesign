@@ -1,10 +1,9 @@
 import type { ChildrenProps } from 'react';
 import type { Metadata } from 'next';
 
-import Footer from './Footer';
-import Header from './Header';
+import { Footer, Header } from '@/components';
 
-import '../styles/globals.css';
+import '@/styles/globals.css';
 
 if (process.env.NEXT_PUBLIC_API_MOCKING === 'true') {
   import('../../mocks');
