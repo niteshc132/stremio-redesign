@@ -41,3 +41,6 @@ yarn-error.log*
 
 # tsc type-check
 tsconfig.tsbuildinfo
+
+# idea files
+/.idea
