@@ -2,7 +2,7 @@ import { CpuChipIcon } from '@heroicons/react/24/outline';
 
 export default function Footer() {
   return (
-    <footer className="bg-primary p-4 text-neutral-content">
+    <footer className="text-neutral-content bg-primary p-4">
       <div className="footer mx-auto max-w-screen-lg items-center">
         <div className="grid-flow-col items-center">
           <CpuChipIcon className="w-6" />
